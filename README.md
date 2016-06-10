@@ -1,3 +1,18 @@
-# docGen
-This repo consist of scripts that can be added to the Xcode project build phases to generate Apple like Documentation. Please note these script are bare minimum. They uses Jazzy for swift from Realm and appledoc for objective C from tomaz. these script can be added as submodule so that you can get the latest pull. At least thats idea when I wanted to strip them out of my projects and add here as open source project. 
-#readme#
+#docGen 
+-
+**Purpose** : This project is side project to improve my own in-project documentaion. 
+
+**How to use** : This can be added as submodule of the project or you can copy the script and add Build Phave in your project file to run the script. 
+<br>
+
+
+###How to add as build phase in project###
+-
+* click on xcode project file
+* On right hand side look for Build Phase
+* Click on Plus icon on left side and select "_New Run Script Phase_"
+* Paste the content of Objcetive C or Swift script.
+* Run the project, It would pick any documentation that you have done in the project   
+
+
+
